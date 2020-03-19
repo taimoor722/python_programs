@@ -4,4 +4,4 @@ df=pd.DataFrame(data=np.random.randint(1,100,size=(300,5)))
 print(df)
 print(*df.columns.tolist(),'<= columns')
 for i in df.columns:
-    print(df.iloc[:,i].mean())
+    print(round(df.iloc[:,i].mean()),'is mean of column',i)

@@ -5,3 +5,6 @@ print(df)
 print(*df.columns.tolist(),'<= columns')
 for i in df.columns:
     print(round(df.iloc[:,i].mean()),'is mean of column',i)
+    
+for i in df.columns:
+    print(round(df.iloc[:,i].median()),'is median of column',i)

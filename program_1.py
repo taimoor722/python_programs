@@ -8,3 +8,5 @@ for i in df.columns:
     
 for i in df.columns:
     print(round(df.iloc[:,i].median()),'is median of column',i)
+
+print('THE END')
